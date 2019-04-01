@@ -12,6 +12,9 @@
   left: 50%;
   margin-left: -300px;
 }
+.App canvas.qipan{
+  margin-top: 50px;
+}
 .App canvas:hover{
   cursor: pointer;
 }
@@ -19,19 +22,23 @@
   position: relative;
   width: 100%;
 }
-.huiqi{
-  position: relative;
-  width: 100%;
+.App .qipanContent .qizi{
+  margin-top: 50px;
+}
+.App .qipanContent .huiqi{
+  position: absolute;
   height: 50px;
+  width: 100%;
+  text-align: center;
   line-height: 50px;
-  font-size: 30px;
-  top: 600px;
+  font-size: 24px;
 }
-.huiqi>span{
-  margin-right: 100px;
+.qipanContent .huiqi > span{
+  display: inline-block;
+  width: 400px;
 }
-.huiqi>button{
-  width: 100px;
-  height: 40px;
-  font-size: 20px;
+.qipanContent .huiqi > button{
+  display: inline-block;
+  width: 80px;
+  height: 30px;
 }

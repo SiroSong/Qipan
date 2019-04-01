@@ -29,31 +29,31 @@ export class Qipan extends React.Component{
         }
         //棋盘点
         ctx.beginPath();
-        ctx.arc(105,105,5,0,2*Math.PI);
+        ctx.arc(105,105,4,0,2*Math.PI);
         ctx.fill();
         ctx.beginPath();
-        ctx.arc(285,285,5,0,2*Math.PI);
+        ctx.arc(285,285,4,0,2*Math.PI);
         ctx.fill();
         ctx.beginPath();
-        ctx.arc(465,465,5,0,2*Math.PI);
+        ctx.arc(465,465,4,0,2*Math.PI);
         ctx.fill();
         ctx.beginPath();
-        ctx.arc(105,285,5,0,2*Math.PI);
+        ctx.arc(105,285,4,0,2*Math.PI);
         ctx.fill();
         ctx.beginPath();
-        ctx.arc(105,465,5,0,2*Math.PI);
+        ctx.arc(105,465,4,0,2*Math.PI);
         ctx.fill();
         ctx.beginPath();
-        ctx.arc(285,105,5,0,2*Math.PI);
+        ctx.arc(285,105,4,0,2*Math.PI);
         ctx.fill();
         ctx.beginPath();
-        ctx.arc(285,465,5,0,2*Math.PI);
+        ctx.arc(285,465,4,0,2*Math.PI);
         ctx.fill();
         ctx.beginPath();
-        ctx.arc(465,105,5,0,2*Math.PI);
+        ctx.arc(465,105,4,0,2*Math.PI);
         ctx.fill();
         ctx.beginPath();
-        ctx.arc(465,285,5,0,2*Math.PI);
+        ctx.arc(465,285,4,0,2*Math.PI);
         ctx.fill();
     }
           
