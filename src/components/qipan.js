@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-export class Qipan extends React.Component{
+export class Qipan extends Component{
+    
     constructor(props){
         super(props);
         this.canvas = React.createRef();
@@ -56,7 +57,7 @@ export class Qipan extends React.Component{
         ctx.arc(465,285,4,0,2*Math.PI);
         ctx.fill();
     }
-          
+
     render(){
         return(
                 <canvas width={600} height={600} id={'can'} className={'qipan'}>

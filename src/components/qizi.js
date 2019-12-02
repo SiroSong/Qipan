@@ -23,7 +23,7 @@ export class Qizi extends React.Component{
         row = Math.round((x - 15)/30);
         col = Math.round((y - 15)/30);
         this.state.qizis.forEach( val => {
-            if(val.row == row && val.col == col){
+            if(val.row === row && val.col === col){
                 canDown = false;
             }
         })
