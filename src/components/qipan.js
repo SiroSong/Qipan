@@ -12,7 +12,8 @@ export class Qipan extends Component{
 
         // 棋盘底色
         ctx.save();
-        ctx.fillStyle = '#faa755';
+        // ctx.fillStyle = '#faa755';
+        ctx.fillStyle = '#5f5f5f';
         ctx.fillRect(0,0,570,570);
         ctx.restore();
         //棋盘线
@@ -60,7 +61,7 @@ export class Qipan extends Component{
 
     render(){
         return(
-                <canvas width={600} height={600} id={'can'} className={'qipan'}>
+                <canvas width={570} height={570} id={'can'} className={'qipan'}>
                     您的浏览器不支持该棋盘，请更换高版本浏览器。
                 </canvas>
             

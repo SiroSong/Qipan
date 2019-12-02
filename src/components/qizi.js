@@ -71,7 +71,7 @@ export class Qizi extends React.Component{
     render(){
         return(
             <div className={'qipanContent'}>
-                <canvas id={'qizi'} width={600} height={600} onClick={this.clickHandle} className={'qizi'}>
+                <canvas id={'qizi'} width={570} height={570} onClick={this.clickHandle} className={'qizi'}>
                     您的浏览器不支持该棋盘，请更换高版本浏览器。
                 </canvas>
                 <div className={'huiqi'}>
