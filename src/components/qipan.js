@@ -12,8 +12,8 @@ export class Qipan extends Component{
 
         // 棋盘底色
         ctx.save();
-        // ctx.fillStyle = '#faa755';
-        ctx.fillStyle = '#5f5f5f';
+        ctx.fillStyle = '#faa755';
+        // ctx.fillStyle = '#5f5f5f';
         ctx.fillRect(0,0,570,570);
         ctx.restore();
         //棋盘线
